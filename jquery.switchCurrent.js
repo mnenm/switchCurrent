@@ -18,17 +18,4 @@
       });
     });
   };
-
-  /* [USAGE] switchCurrent
-  $(function(){
-    $('#reward-area').switchCurrent({
-      onDisable: function(elem){
-        elem.parent().parent().removeClass('selected');
-      }, 
-      onEnable: function(elem){
-        elem.parent().parent().addClass('selected');
-      }
-    });
-  });
-  */
 })(jQuery)

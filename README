@@ -1,1 +1,13 @@
 select current block by radiobutton
+
+[USAGE] switchCurrent
+$(function(){
+  $('#root-element').switchCurrent({
+    onDisable: function(elem){
+      elem.parent().parent().removeClass('selected');
+    }, 
+    onEnable: function(elem){
+      elem.parent().parent().addClass('selected');
+    }
+  });
+});
